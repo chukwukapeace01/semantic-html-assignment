@@ -1,107 +1,136 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Campus Voices - Semantic</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <a class="skip-link" href="#main">Skip to main content</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Campus Voices - Semantic</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
 
-  <header class="site-header">
-    <p class="logo">Campus Voices</p>
-    <nav class="nav" aria-label="Primary">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Stories</a></li>
-        <li><a href="#">Events</a></li>
-        <li><a href="#">About</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <div class="layout">
-    <main class="content" id="main">
-
-      <article>
-        <header>
-          <h1 class="title title--page">Students Bring Fresh Ideas to Campus Life</h1>
-          <p class="meta">By Peace Chukwuka | <time datetime="2026-03-12">12 March 2026</time></p>
-        </header>
-
-        <figure class="image">
-          <img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='300'%3E%3Crect width='800' height='300' fill='%23a8dadc'/%3E%3Ctext x='400' y='160' font-size='28' text-anchor='middle' fill='%231d3557'%3ECampus market day%3C/text%3E%3C/svg%3E" alt="Students at stalls during campus market day">
-          <figcaption class="caption">Students sell handmade goods at the campus market day.</figcaption>
-        </figure>
-
-        <p>This semester, student groups have started small projects that make campus a livelier place. From markets to study circles, the ideas are simple and the impact is real.</p>
-
-        <blockquote class="quote">
-          <p>We just wanted a place where everyone could share what they make.</p>
-          <footer class="quote-author">&mdash; <cite>Deenmarh, market organiser</cite></footer>
-        </blockquote>
-      </article>
-
-      <section class="related" aria-labelledby="related-heading">
-        <h2 class="title" id="related-heading">Related reading</h2>
+    <header class="site-header">
+      <p class="logo">Campus Voices</p>
+      <nav class="nav" aria-label="Primary">
         <ul>
-          <li><a href="#">How to start a student club</a></li>
-          <li><a href="#">Five study habits that work</a></li>
-          <li><a href="#">Campus events this month</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Stories</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">About</a></li>
         </ul>
-      </section>
+      </nav>
+    </header>
 
-      <section class="cards" aria-labelledby="cards-heading">
-        <h2 class="title" id="cards-heading">More stories</h2>
-        <ul class="card-list">
-          <li>
-            <article class="card">
-              <h3 class="title">Study Circles Grow</h3>
-              <p class="meta"><time datetime="2026-03-05">5 March 2026</time></p>
-              <p>Small groups are helping students prepare for exams together.</p>
-            </article>
-          </li>
-          <li>
-            <article class="card">
-              <h3 class="title">Art on the Walls</h3>
-              <p class="meta"><time datetime="2026-03-01">1 March 2026</time></p>
-              <p>A new mural brings colour to the library corridor.</p>
-            </article>
-          </li>
-          <li>
-            <article class="card">
-              <h3 class="title">Run for Charity</h3>
-              <p class="meta"><time datetime="2026-02-24">24 February 2026</time></p>
-              <p>Over 200 students joined the annual fun run.</p>
-            </article>
-          </li>
+    <div class="layout">
+      <main class="content" id="main">
+        <article>
+          <header>
+            <h1 class="title title--page">
+              Students Bring Fresh Ideas to Campus Life
+            </h1>
+            <p class="meta">
+              By Peace Chukwuka |
+              <time datetime="2026-03-12">12 March 2026</time>
+            </p>
+          </header>
+
+          <figure class="image">
+            <img
+              src="images/image-attach.jpeg"
+              alt="Students at stalls during campus market day"
+            />
+            <figcaption class="caption">
+              Students sell handmade goods at the campus market day.
+            </figcaption>
+          </figure>
+
+          <p>
+            This semester, student groups have started small projects that make
+            campus a livelier place. From markets to study circles, the ideas
+            are simple and the impact is real.
+          </p>
+
+          <blockquote class="quote">
+            <p>
+              We just wanted a place where everyone could share what they make.
+            </p>
+            <footer class="quote-author">
+              &mdash; <cite>Deenmarh, market organiser</cite>
+            </footer>
+          </blockquote>
+        </article>
+
+        <section class="related" aria-labelledby="related-heading">
+          <h2 class="title" id="related-heading">Related reading</h2>
+          <ul>
+            <li><a href="#">How to start a student club</a></li>
+            <li><a href="#">Five study habits that work</a></li>
+            <li><a href="#">Campus events this month</a></li>
+          </ul>
+        </section>
+
+        <section class="cards" aria-labelledby="cards-heading">
+          <h2 class="title" id="cards-heading">More stories</h2>
+          <ul class="card-list">
+            <li>
+              <article class="card">
+                <h3 class="title">Study Circles Grow</h3>
+                <p class="meta">
+                  <time datetime="2026-03-05">5 March 2026</time>
+                </p>
+                <p>
+                  Small groups are helping students prepare for exams together.
+                </p>
+              </article>
+            </li>
+            <li>
+              <article class="card">
+                <h3 class="title">Art on the Walls</h3>
+                <p class="meta">
+                  <time datetime="2026-03-01">1 March 2026</time>
+                </p>
+                <p>A new mural brings colour to the library corridor.</p>
+              </article>
+            </li>
+            <li>
+              <article class="card">
+                <h3 class="title">Run for Charity</h3>
+                <p class="meta">
+                  <time datetime="2026-02-24">24 February 2026</time>
+                </p>
+                <p>Over 200 students joined the annual fun run.</p>
+              </article>
+            </li>
+          </ul>
+        </section>
+      </main>
+
+      <aside class="sidebar" aria-labelledby="sidebar-heading">
+        <h2 class="title" id="sidebar-heading">Find a story</h2>
+
+        <form class="search" role="search" action="#">
+          <label class="search-label" for="site-search">Search stories</label>
+          <input
+            type="search"
+            id="site-search"
+            name="q"
+            placeholder="e.g. study tips"
+          />
+          <button type="submit">Search</button>
+        </form>
+
+        <h3 class="title">Popular topics</h3>
+        <ul>
+          <li><a href="#">Clubs</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Study tips</a></li>
+          <li><a href="#">Campus life</a></li>
         </ul>
-      </section>
+      </aside>
+    </div>
 
-    </main>
-
-    <aside class="sidebar" aria-labelledby="sidebar-heading">
-      <h2 class="title" id="sidebar-heading">Find a story</h2>
-
-      <form class="search" role="search" action="#">
-        <label class="search-label" for="site-search">Search stories</label>
-        <input type="search" id="site-search" name="q" placeholder="e.g. study tips">
-        <button type="submit">Search</button>
-      </form>
-
-      <h3 class="title">Popular topics</h3>
-      <ul>
-        <li><a href="#">Clubs</a></li>
-        <li><a href="#">Events</a></li>
-        <li><a href="#">Study tips</a></li>
-        <li><a href="#">Campus life</a></li>
-      </ul>
-    </aside>
-  </div>
-
-  <footer class="footer">
-    <p>&copy; 2026 Campus Voices. All rights reserved.</p>
-  </footer>
-</body>
+    <footer class="footer">
+      <p>&copy; 2026 Campus Voices. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
